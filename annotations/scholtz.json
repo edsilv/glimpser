@@ -1,0 +1,16 @@
+[
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "/anotations/scholtz/0",
+        "type": "Annotation",
+        "body": "http://37.139.8.83/items/presentation/8/manifest",
+        "target": {
+            "source": "/stories/scholtz.html",
+            "selector": {
+                "type": "TextPositionSelector",
+                "start": 412,
+                "end": 795
+            }
+        }
+    }
+]

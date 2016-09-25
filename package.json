@@ -1,0 +1,23 @@
+{
+  "name": "glimpser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsilv/glimpser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsilv/glimpser/issues"
+  },
+  "homepage": "https://github.com/edsilv/glimpser#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}

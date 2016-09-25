@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
+    <script type="text/javascript">
+
+        function request(url) {
+            return $.ajax({
+                url: url, 
+                type: "GET"
+            });
+        }
+        
+        // get items by text type. do we need a story type?
+        // text in the stories should have spans that link to other items, including their type. 
+
+        request('http://localhost:3000/items').done(function(data) {
+            $("#output").text(JSON.stringify(data, null, 2));
+        }).fail(function(jqXHR) {
+            console.log(jqXHR.responseText);
+        });
+
+    </script>
+</head>
+<body>
+    <div id="output"></div>
+</body>
+</html>
